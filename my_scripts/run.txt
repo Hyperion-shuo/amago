@@ -1,0 +1,1 @@
+export AMAGO_WANDB_PROJECT="amago" && python examples/00_meta_frozen_lake.py --seq_model transformer  --run_name example_0_test  --buffer_dir buffer --log 

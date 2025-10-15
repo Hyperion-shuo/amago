@@ -32,7 +32,7 @@ setup(
             # deepmind alchemy
             "dm_env",
             "dm_alchemy @ git+https://github.com/deepmind/dm_alchemy.git",
-            "gymnax",
+            # "gymnax",
             "matplotlib",
             "opencv-python",
             "procgen",

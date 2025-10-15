@@ -144,8 +144,8 @@ class Experiment:
     ## Logging ##
     #############
     log_to_wandb: bool = False
-    wandb_project: str = os.environ.get("AMAGO_WANDB_PROJECT")
-    wandb_entity: str = os.environ.get("AMAGO_WANDB_ENTITY")
+    wandb_project: str = os.environ.get("AMAGO_WANDB_PROJECT", "")
+    wandb_entity: str = os.environ.get("AMAGO_WANDB_ENTITY", "")
     wandb_group_name: str = None
     verbose: bool = True
     log_interval: int = 300

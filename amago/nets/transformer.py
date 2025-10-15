@@ -34,8 +34,8 @@ try:
 except ImportError:
     amago_warning("Missing FlashAttention (2.0) Install")
     flash_attn = None
-else:
-    torch.set_float32_matmul_precision("high")
+# else:
+torch.set_float32_matmul_precision("high")
 
 
 class SelfAttention(nn.Module, ABC):
